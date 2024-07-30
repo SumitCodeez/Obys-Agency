@@ -31,7 +31,6 @@ body {
   flex-direction: column;
   padding-top: 8vw;
   padding-left: 12vw;
-  /* display: none; */
 }
 #loader .load {
   height: 8.5vw;
@@ -857,6 +856,17 @@ body {
 }
 
 @media (max-width: 600px) {
+  #loader {
+    width: 100%;
+    height: 100vh;
+    padding-top:68vw;
+    padding-left: 12vw;
+  }
+  #loader .load {
+    height: 15.5vw;
+    display: flex;
+    align-items: center;
+  }
   #page-1 {
     height: 40vh;
   }
